@@ -55,7 +55,7 @@ private fun checkAndAskForBiscuits(currentCoffeeShop: CoffeeShop){
         println("1. Yes\n2. No")
         val isBiscuits = readLine()
         if (isBiscuits == "1") {
-            currentCoffeeShop.sellBiscuits()
+            currentCoffeeShop.sellBiscuits() //Проверка коментов =)
         }
     }
 }
